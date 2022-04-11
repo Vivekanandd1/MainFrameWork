@@ -1,13 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-07T18:19:22 IST" name="Default suite" finished-at="2022-04-07T18:19:38 IST" duration-ms="16217">
+  <suite started-at="2022-04-11T17:58:21 IST" name="Default suite" finished-at="2022-04-11T17:59:33 IST" duration-ms="72133">
     <groups>
     </groups>
-    <test started-at="2022-04-07T18:19:22 IST" name="Default test" finished-at="2022-04-07T18:19:38 IST" duration-ms="16217">
+    <test started-at="2022-04-11T17:58:21 IST" name="Default test" finished-at="2022-04-11T17:59:33 IST" duration-ms="72133">
       <class name="MainE2E.HomePage">
-        <test-method signature="HomePageNavigation()[pri:0, instance:MainE2E.HomePage@a530d0a]" started-at="2022-04-07T18:19:22 IST" name="HomePageNavigation" finished-at="2022-04-07T18:19:38 IST" duration-ms="16096" status="PASS">
+        <test-method signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:MainE2E.HomePage@5ba3f27a]" started-at="2022-04-11T17:58:21 IST" name="HomePageNavigation" data-provider="getdata" finished-at="2022-04-11T17:58:41 IST" duration-ms="19666" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tomsmith]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[SuperSecretPassword!]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HomePageNavigation -->
+        <test-method signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:MainE2E.HomePage@5ba3f27a]" started-at="2022-04-11T17:58:41 IST" name="HomePageNavigation" data-provider="getdata" finished-at="2022-04-11T17:59:33 IST" duration-ms="52341" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[broda]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[brpda]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageNavigation -->

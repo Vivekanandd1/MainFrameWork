@@ -6,7 +6,7 @@ import org.openqa.selenium.WebElement;
 
 public class LandingPage {
 	public WebDriver driver;
-	 By Login = By.xpath("//a[text()='Basic Auth']");
+	 By Login = By.xpath("//a[text()='Form Authentication']");
 	 
 	 public LandingPage(WebDriver driver) {
 		this.driver = driver;
