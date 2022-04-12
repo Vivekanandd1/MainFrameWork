@@ -5,7 +5,7 @@
     <classes>
       <class name="MainE2E.HomePage">
         <methods>
-          <include name="HomePageNavigation"/>
+          <include name="HomePageNavigation" invocation-numbers="0"/>
         </methods>
       </class> <!-- MainE2E.HomePage -->
     </classes>

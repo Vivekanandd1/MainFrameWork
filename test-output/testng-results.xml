@@ -1,13 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-04-11T17:58:21 IST" name="Default suite" finished-at="2022-04-11T17:59:33 IST" duration-ms="72133">
+  <suite started-at="2022-04-12T17:19:15 IST" name="Suite" finished-at="2022-04-12T17:19:44 IST" duration-ms="28344">
     <groups>
     </groups>
-    <test started-at="2022-04-11T17:58:21 IST" name="Default test" finished-at="2022-04-11T17:59:33 IST" duration-ms="72133">
+    <test started-at="2022-04-12T17:19:15 IST" name="Test" finished-at="2022-04-12T17:19:44 IST" duration-ms="28344">
       <class name="MainE2E.HomePage">
-        <test-method signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:MainE2E.HomePage@5ba3f27a]" started-at="2022-04-11T17:58:21 IST" name="HomePageNavigation" data-provider="getdata" finished-at="2022-04-11T17:58:41 IST" duration-ms="19666" status="PASS">
+        <test-method is-config="true" signature="Startup()[pri:0, instance:MainE2E.HomePage@593aaf41]" started-at="2022-04-12T17:19:16 IST" name="Startup" finished-at="2022-04-12T17:19:40 IST" duration-ms="24632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Startup -->
+        <test-method signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:MainE2E.HomePage@593aaf41]" started-at="2022-04-12T17:19:40 IST" name="HomePageNavigation" data-provider="getdata" finished-at="2022-04-12T17:19:43 IST" duration-ms="2861" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -23,23 +27,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- HomePageNavigation -->
-        <test-method signature="HomePageNavigation(java.lang.String,java.lang.String)[pri:0, instance:MainE2E.HomePage@5ba3f27a]" started-at="2022-04-11T17:58:41 IST" name="HomePageNavigation" data-provider="getdata" finished-at="2022-04-11T17:59:33 IST" duration-ms="52341" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[broda]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[brpda]]>
-              </value>
-            </param>
-          </params>
+        <test-method is-config="true" signature="teardown()[pri:0, instance:MainE2E.HomePage@593aaf41]" started-at="2022-04-12T17:19:43 IST" name="teardown" finished-at="2022-04-12T17:19:44 IST" duration-ms="756" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- HomePageNavigation -->
+        </test-method> <!-- teardown -->
       </class> <!-- MainE2E.HomePage -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
